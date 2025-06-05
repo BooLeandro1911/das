@@ -1,0 +1,374 @@
+
+.listaHeader {
+
+list-style: none;
+text-decoration: none;
+color: white;
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+gap: 80px;
+align-content: center;
+padding-right: 20px;
+align-items: center;
+font-size: 23px;
+
+
+}
+
+.home:hover{
+
+  
+    border-color: aliceblue;
+    text-decoration:underline
+
+}
+
+.sobreNos:hover{
+
+text-decoration:underline;
+
+}
+
+.contateNos:hover{
+
+text-decoration: underline;
+
+}
+
+.cardapio:hover{
+
+    text-decoration: underline;
+
+
+}
+
+
+
+#logoSahur{
+
+    margin-top: 50px;
+    height: 120px;
+    width: 120px;
+    border-radius: 120px;
+    margin-bottom: 45px;
+    margin-left: 60px;
+}
+.containerLogo{
+    /*background-color: rgb(192, 57, 43); vermelho*/ 
+    /*background-color: rgb(142, 94, 58); cor de massa*/
+    background-color: rgb(0, 0, 0);
+    background-image: url('');
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 160px;
+}
+
+
+a{
+
+    color: rgb(243, 243, 243);
+    text-decoration: none;
+    
+
+
+}
+
+.containerHeader{
+
+
+    display: flex;
+    justify-content: end;
+    padding-bottom: 2px;
+    align-items:flex-start;
+
+}
+.reservar{
+
+background-color: rgba(134, 57, 211, 0);
+color: white;
+border-color: rgb(255, 255, 255);
+font-size: 23px;
+border-radius: 10px;
+
+}
+
+.reservar:hover{
+
+color: rgb(255, 255, 255);
+
+}
+
+
+.nav{
+
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.image{
+
+
+
+}
+
+#pizzaFundo{
+
+    position:absolute;
+    filter:brightness(40%);
+    width: 1889px;
+    height: 900px;
+
+}
+
+.divSlogan{
+
+position: relative;
+margin-top: 10%;
+color: aliceblue;
+margin-left: 300px;
+margin-right: 700px;
+padding-right: 500px;
+font-size: 40px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+
+.pratosEmDestaque{
+    
+    color: black;
+    font-size: 50px;
+
+
+}
+
+.prato1{
+
+display: flex;
+justify-content: center;
+height: 600px;
+
+}
+
+
+.prato2{
+
+margin-left:20px;
+margin-top: 400px;
+
+
+}
+
+
+.ulPrato2{
+
+text-decoration: none;
+list-style: none;
+padding-left: 67px;
+padding-bottom: 4px;
+
+
+
+
+}
+
+.divLinhaPreta1{
+
+background-color: black;
+height: 5px;
+margin-bottom: 50px;
+margin-left: 15px;
+width: 570px;
+}
+
+.prato2Image{
+
+height: 280px;
+width: 425px;
+padding-left: 67px;
+
+}
+
+.prato3Image{
+
+    height: 280px;
+    width: 425px;   
+    padding-left: 87px;
+    
+
+}
+
+
+.ulPrato3{
+
+text-decoration: none;
+list-style: none;
+padding-left: 87px;
+margin-bottom: 20px;
+padding-bottom: 4px;
+
+    
+    
+}
+
+.divLinhaPreta3{
+
+    background-color: black;
+    height: 5px;
+    margin-bottom: 50px;
+    margin-left: 15px;
+    width: 570px;
+
+
+}
+    
+
+.prato4Image{
+
+    height: 280px;
+    width: 425px;
+    padding-left: 87px;
+
+}
+
+
+
+.ulPrato4{
+
+text-decoration: none;
+list-style: none;
+padding-left: 87px;
+margin-bottom: 20px;
+padding-bottom: 4px;
+
+    
+}
+
+
+    
+
+.prato5Image{
+
+height: 280px;
+padding-left: 344px;
+margin-bottom: 20px;
+
+
+}
+
+.ulPrato5{
+
+padding-left: 370px;
+text-decoration: none;
+list-style: none;
+margin-bottom: 20px;
+padding-bottom: 50px;
+
+    
+}
+
+
+    
+
+
+.prato6Image{
+
+height: 280px;
+padding-left: 344px;
+margin-bottom: 20px;
+
+
+}
+
+.ulPrato6{
+
+padding-left: 370px;
+text-decoration: none;
+list-style: none;
+padding-bottom: 200px;
+
+    
+    
+    
+}
+
+
+#pratosDestaque{
+
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+flex-wrap: wrap;
+width: 50%;
+height: auto;
+padding-right: 100px;
+padding-top: 370px;
+background-color: rgb(255, 255, 255);
+
+
+    
+}
+
+
+.tituloPrato2{
+
+font-size: 55px;
+padding-left: 37px;
+padding-bottom: 50px;
+
+
+}
+
+#divzao{
+
+    background-color: rgb(255, 255, 255);
+    border: 30px;
+    box-shadow: 4px 4px 20px 1px;
+    width: 600px;
+    margin-left: 400px;
+    border-radius: 30px;
+}
+.divUl1{
+
+width: 300px;
+
+}
+
+.divUl2{
+
+width: 300px;
+
+}
+
+.divUl3{
+
+    width: 300px;
+    
+}
+
+.sidebar{
+
+background-color: aquamarine;
+height: 400px;
+width: 200px;
+position: absolute;
+margin-left: 80%;
+margin-top: 10%;
+
+
+
+}
+
+
+
+
+
+
+
+
+
